@@ -2718,7 +2718,7 @@ textarea.form-control-lg {
     position: relative
 }
 
-.form-floating::before:not(.form-control:disabled) {
+/* .form-floating::before:not(.form-control:disabled) {
     position: absolute;
     top: var(--bs-border-width);
     left: var(--bs-border-width);
@@ -2727,7 +2727,7 @@ textarea.form-control-lg {
     content: "";
     background-color: var(--bs-form-control-bg);
     border-radius: .375rem
-}
+} */
 
 .form-floating>.form-control,
 .form-floating>.form-control-plaintext,

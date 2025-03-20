@@ -11,7 +11,7 @@ const Pools = ({setPoolID, poolDetails, setSelectedPool, setSelectedToken}) => {
           <div className="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
             <div className="section__title">
               <h2>Staking pools</h2>
-              <p> "Maximize your NEO holdings by staking them in our secure staking pools. Earn attractive rewards and become an active participant in the Afya ecosystem.</p>
+              <p> "Welcome to Zuri Staking Pools – Where Your Crypto Works for You! 🚀 Start staking, earn rewards, and grow your assets effortlessly.</p>
             </div>
 
           </div>

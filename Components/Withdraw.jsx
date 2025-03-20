@@ -11,7 +11,7 @@ const Withdraw = ({setWithdrawPoolID,poolDetails}) => {
         <div className="col-12 col-md-8 offset-md-2 col-xl-6 offset-lg-3">
           <div className="section__title">
             <h2>Staking Rewards</h2>
-            <p> staking ingo goes here</p>
+            <p> 🌱 "Growth in action! Your rewards have been added to your balance.""</p>
           </div>
 
         </div>

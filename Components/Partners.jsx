@@ -4,22 +4,22 @@ const Partners = () => {
   const partners = [
     {
       name: ".com",
-      image: "img/partners/logo1.svg",
+      // image: "img/partners/logo1.svg",
       url: "",
     },
     {
       name: ".com",
-      image: "img/partners/logo2.svg",
+      // image: "img/partners/logo2.svg",
       url: "",
     },
     {
       name: ".com",
-      image: "img/partners/logo3.svg",
+      // image: "img/partners/logo3.svg",
       url: "",
     },
     {
       name: ".com",
-      image: "img/partners/logo4.svg",
+      // image: "img/partners/logo4.svg",
       url: "",
     },
 

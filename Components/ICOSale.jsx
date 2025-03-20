@@ -50,16 +50,17 @@ const ICOSale = ({setLoader}) => {
                   </button>
                   <h4 className="modal__title">
                      {/* {tokenDetails?.token.symbol} */}
-                      NEO ICO Token</h4>
+                      ZUR ICO Token</h4>
                   <p className="modal__text">
-                   participate in the <span>ongoing NEO ICO Token</span> sale stake  NEO and accumulate rewards
+                   participate in the <span>ongoing ZUR ICO Token</span> sale stakeD  ZUR and accumulate rewards
+                   Ready to withdraw
                   </p> 
                   <div className="modal__form">
                     <div className="form_group">
                       <label htmlFor="form__label">
                         ICO Supply:{""}
-                        {/* {`${tokenDetails?.tokenBal} $
-                        {tokenDetails?.token.symbol}`} */}
+                         {`${tokenDetails?.tokenBal} $
+                        {tokenDetails?.token.symbol}`} 
                       </label>
                       <input type="text"
                       className="form__input" 
@@ -83,7 +84,7 @@ const ICOSale = ({setLoader}) => {
                     onClick={()=>
                       CALLING_FUNCTION_Buy_TOKEN(quantity)
                     }>
-                      {/* Buy {tokenDetails?.token.symbol} */}
+                       {/* Buy {tokenDetails?.token.symbol}  */}
                     </button>
 
                   </div>

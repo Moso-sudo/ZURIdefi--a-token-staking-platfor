@@ -45,7 +45,7 @@ const PoolsModel = ({
             </button>
             <h4 className="modal__title"> Invest</h4>
             <p className="modal__text">
-            Welcome to NEO , stake your NEO {selectedPool?.depositToken.name} token to earn reward.
+            Welcome to ZurI-Defi , stake your ZUR Tokens  {selectedPool?.depositToken.name} token to earn reward amazing rewards on your stakings.
             </p>
 
             <div className="modal__form">
@@ -57,15 +57,15 @@ const PoolsModel = ({
               <div className="form__group">
                 <label htmlFor="" className="form__label">Pool Details:</label>
                 <ul className="form__radio">
-                  <InputRatio index={1} value={` You've Deposited:
+                  <InputRatio index={1} value={`You've Deposited:
                       ${selectedPool?.amount}
                        ${selectedPool?.depositToken.symbol}`}/>
 
-                  <InputRatio index={2} value={` Total Deposited:
+                  <InputRatio index={2} value={`Total Deposited:
                       ${selectedPool?.depositedAmount}
                        ${selectedPool?.depositToken.symbol}`}/>
 
-                  <InputRatio index={3} value={` My Balance:
+                  <InputRatio index={3} value={`My Balance:
                       ${selectedPool?.depositToken.balance. slice(0,8)}
                        ${selectedPool?.depositToken.symbol}`}/>
 

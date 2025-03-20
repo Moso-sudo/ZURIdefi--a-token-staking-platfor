@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import { useAccount } from "wagmi";
+ import { ReactTyped } from "react-typed";
 
 const CURRENCY  =process.env.NEXT_PUBLIC_CURRENCY;
 import  {LOAD_TOKEN_ICO} from "../Context/constants"
@@ -47,10 +48,21 @@ const HeroSection = ( {poolDetails, addTokenToMetamask}) => {
           {/* 1 */}
           <div className="col-12 col-lg-7 col-xl-6">
             <div className="hero__content hero__content--first">
-              <h1 className="hero__title">
-                <strong>NEO TOKENS</strong><br/>
-                Best  return on your investment
+              <h1 style={{fontFamily:"Montreta"}} className="hero__title">
+              Token Staking platform build on  <a href="">LISK- </a> <span style={{ textTransform: "lowercase", fontSize:"18px"}}>a layer two scalling solution leveraging all the Power of  blockchain! <span>Secure, Transparent, Censorship Resistant while Enjoying Lowered transaction gas fees !</span></span>
+              
+
               </h1>
+           
+          
+              <p className="stake__earn-grow">
+                <ReactTyped strings={['Stake' ,'Earn', ' Grow!', 'Stake, Earn, Grow!']}
+                          className=' text-orange  fond-large md:text-3xl sm:text-4xl text-xl md:pl-4 pl-2' 
+                          typeSpeed={50}
+                          backSpeed={50}
+                          
+                          /> 
+                </p>
               <div className="hero__btns">
                 <a data-bs-target="#modal-deposit1" type="button" data-bs-toggle="modal" className="hero__btn">
                   BUY{tokenDetails?.symbol}  {""}
@@ -70,15 +82,15 @@ const HeroSection = ( {poolDetails, addTokenToMetamask}) => {
           <div className="col-12 col-md-6 col-lg-5 col-xl-4 offset-xl-2">
             <div className="hero__content hero__content--second">
               <div className="node node--hero">
-                <h3 className="node__title node__title--red">
-                  <b>{tokenDetails?.symbol || ""}</b>NEO Token ICO
+                <h3 className="">
+                  <b style={{color:"green"}}>{tokenDetails?.symbol || ""}</b >ZUR Token ICO
                 </h3>
                 <span className="node__date">
                   {tokenDetails?.tokenPrice || ""}
                   {CURRENCY}
                 </span>
                 <span  className="node__price">
-                  NEO ICO Left: <b>{tokenDetails?.tokenBal || ""}{tokenDetails?.symbol}</b>
+                  ZUR ICO Left: <b>{tokenDetails?.tokenBal || ""}{tokenDetails?.symbol}</b>
                 </span>
                 {/* <span className="node__line">
                   <img src="img/dodgers/dots--line-red.svg" alt="" />
@@ -103,7 +115,7 @@ const HeroSection = ( {poolDetails, addTokenToMetamask}) => {
 
                 <div className={"progressbar progressbar--cta"}>
                   <h3 className="progressbar__title"> 
-                   NEO ICO Sale: {tokenDetails?.soldTokens}
+                   ZUR ICO Sale: {tokenDetails?.soldTokens}
                     {tokenDetails?.symbol}
                     </h3>
 

@@ -1,136 +1,91 @@
-# Create a Token Staking DApp & Earn Rewards on Any Blockchain
+#Amazing Features of the Zuri DeFi Platform
 
-Create a Token Staking DApp & Earn Rewards with ICO using Next.js, WAGMI, Solidity and Deploy on Any Blockchain!
+The Zuri DeFi Platform is designed to offer users a seamless and rewarding decentralized finance (DeFi) experience. With a secure and intuitive interface, users can interact with various financial services without relying on traditional banks. Here are some of the standout features:
+1. Native Token Purchase
 
-Ready to build your own Token Staking DApp and earn rewards with an ICO? In this comprehensive tutorial, we'll guide you step-by-step through creating a decentralized application using Next.js, WAGMI, and Solidity on any blockchain. Whether you're a beginner or an experienced developer,
+Users can easily buy Zuri’s native token directly from the platform using various payment options. This serves as the gateway to all DeFi activities within the ecosystem.
+2. Staking & Passive Rewards
 
-By the end of this video, you'll have a fully functional DApp capable of staking tokens and earning rewards. Don't forget to like, subscribe, and hit the bell icon to stay updated with our latest tutorials!
+Stake your Zuri tokens and earn passive rewards! The staking mechanism ensures that users who lock their tokens receive yield over time, making it an excellent way to grow their holdings.
+3. Flexible & Fixed Staking Pools
 
-## Project Overview
+Zuri offers different staking pools:
 
-![alt text](https://www.daulathussain.com/wp-content/uploads/2024/08/Create-a-Token-Staking-DApp-Earn-Rewards-on-Any-Blockchain.jpg)
+    Flexible Staking: Allows users to withdraw funds anytime while still earning rewards.
+    Fixed Staking: Offers higher rewards for users who commit their tokens for a set period.
 
-Kindly follow the following Instructions to run the project in your system and install the necessary requirements
+4. Admin Dashboard for Platform Management
 
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/create-a-token-staking-dapp-and-earn-rewards-on-any-blockchain)
+Admins have access to a powerful dashboard where they can:
 
-#### Setup Video
+    Add and manage staking pools.
+    Monitor platform activity.
+    Adjust reward structures and other DeFi settings.
 
-- [Final Code Setup video](https://youtu.be/VaIf4wkzl4c?si=xNvjLuauIxmq87IP)
+5. Secure & Transparent Transactions
 
-```
-  WATCH: Setup & Demo Of Project
-```
+Built on blockchain technology, Zuri ensures that all transactions are recorded on an immutable ledger, providing security and transparency to users.
+6. Multi-Wallet Support
 
-#### Install Vs Code Editor
+The platform integrates seamlessly with popular crypto wallets, allowing users to connect and transact effortlessly.
+7. Yield Farming & Liquidity Provision (Future Upgrade)
 
-```
-  URL: https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
+Zuri plans to introduce liquidity pools where users can provide liquidity and earn additional rewards, further expanding earning opportunities.
+8. User-Friendly Interface
 
-#### NodeJs & NPM Version
+A well-designed UI ensures both beginners and experienced DeFi users can navigate the platform without hassle.
+9. Governance & Voting Rights (Planned Feature)
 
-```
-  URL: https://nodejs.org/en/download
-  NodeJs: v18.17.1 || LATEST VERSION
-  NPM: 8.19.2 || LATEST VERSION
-```
+Token holders may get governance rights, enabling them to participate in decision-making about future updates, tokenomics, and ecosystem development.
+10. Robust Security Measures
 
-#### ALL SOURCE CODE
+The platform is protected with smart contract audits, multi-layered security protocols, and anti-fraud mechanisms to safeguard user assets.
+Why Choose Zuri DeFi?
 
-```
-PROJECT CODE: https://www.theblockchaincoders.com/sourceCode/create-a-token-staking-dapp-and-earn-rewards-on-any-blockchain
- URL: https://www.theblockchaincoders.com/SourceCode
-  GET: Project Starter File Download
-```
+With its innovative staking options, secure environment, and user-friendly interface, Zuri DeFi is set to redefine decentralized finance by making it accessible and rewarding for all users. Whether you’re an investor, trader, or blockchain enthusiast, Zuri offers something for everyone!
 
-All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
 
-## Final Code Instruction
 
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
 
-#### What You Will Get
+### Staking the Native Token
 
-Once you download the final source code, you will get a ZIP file, then you will have 2 FOLDERS & README file which contain all the instructions to run the project and set video
+    Users stake their Zuri native token (ZURI) into a staking pool.
+    They choose between flexible or fixed staking pools, which offer different reward rates.
+    The tokens are locked for the chosen period, and rewards accumulate over time.
 
-#### Setup Video
+2. Earning Rewards Over Time
 
-```
-  WATCH: Setup & Demo Of Project
-```
+    Users earn staking rewards in ZURI tokens based on the pool’s APY (Annual Percentage Yield).
+    The longer they stake, the higher the rewards they accumulate.
 
-#### ALL SOURCE CODE
+3. Reconvert Staked Tokens & Rewards into a Pegged Crypto
 
-```
-  STARTER_FILE: https://github.com/daulathussain/Health-Care-Dapp-Starter-File
- URL: https://www.theblockchaincoders.com/SourceCode
-  GET: Project Starter File Download
-```
+    After the staking period ends, users can choose to reconvert their ZURI tokens and rewards into a stablecoin (e.g., USDT, USDC) before withdrawing.
+    This process is managed through:
+        An internal liquidity pool that allows token swaps between ZURI and the pegged crypto.
+        A decentralized exchange (DEX) integration that offers real-time conversion.
+        A smart contract-based auto-conversion system that executes the swap instantly upon withdrawal.
 
-#### Install Vs Code Editor
+4. Withdrawing the Converted Crypto
 
-```
-  URL: https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
+    Once the ZURI tokens & rewards are swapped to USDT/USDC, the user can withdraw to their external wallet.
+    This ensures that users lock in their earnings in a stable form, avoiding price volatility risks.
 
-#### NodeJs & NPM Version
+Why This System is Beneficial:
 
-```
-  URL: https://nodejs.org/en/download
-  NodeJs: v18.17.1
-  NPM: 8.19.2
-```
+✅ Protects users from volatility – Stakers can convert rewards into a stable asset before withdrawing.
+✅ Encourages long-term staking – Users feel more secure knowing they can easily reconvert their earnings.
+✅ Ensures liquidity – A properly managed liquidity pool ensures that users can always swap their tokens.
+✅ Simplifies cashing out – Users can withdraw directly in a pegged crypto rather than handling multiple transactions.
+Possible Implementations:
 
-#### RPU URL PROVIDER
+    Integrated Swap Feature – A built-in swap that converts ZURI to USDT/USDC via an automated liquidity pool.
+    Multi-Token Reward Option – Users choose whether they want staking rewards in ZURI or directly in a stablecoin.
+    Auto-Conversion Option – Users can enable an auto-convert feature, where their earned rewards automatically swap into a pegged crypto at predefined intervals.
 
-```
-  NAME: ANKR.COM
-  URL: https://www.ankr.com/rpc/
-```
 
-#### FORMSPREE
 
-```
-  # FORMSPREE
-  URL: https://formspree.io/
-```
-
-#### Google Cloud Web3
-
-Google Cloud Web3 will provide you with some free test faucets which you can transfer to your wallet address for deploying the contract
-
-```
-  Get: Free Test Faucets
-  URL : https://cloud.google.com/application/web3/faucet/ethereum
-```
-
-#### RemixID
-
-We are using RemixID for deploying the contract and generation of the ABI in the project, but you can use any other tools like Hardhat, etc.
-
-```
-  OPEN: RemixID
-  URL: https://remix-project.org
-```
-
-## Important Links
-
-- [Get Pro Blockchain Developer Course](https://www.theblockchaincoders.com/pro-nft-marketplace)
-- [Support Creator](https://bit.ly/Support-Creator)
-- [All Projects Source Code](https://www.theblockchaincoders.com/SourceCode)
-
-## Authors
-
-- [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
-- [@consultancy](https://www.theblockchaincoders.com/consultancy)
-- [@youtube](https://www.youtube.com/@daulathussain)
-
-#### PACKAGES
-
-```
+🚀 Join Zuri DeFi and start earning today!
   {
   "name": "staking-dapp",
   "version": "0.1.0",
@@ -178,8 +133,8 @@ NEXT_PUBLIC_ADMIN_ADDRESS =
 
 # CURRANY
 NEXT_PUBLIC_CURRENCY = ETH
-NEXT_PUBLIC_CHAIN_ID = 17000
-NEXT_PUBLIC_NETWORK_NAME = Holesky
+NEXT_PUBLIC_CHAIN_ID = 4202
+NEXT_PUBLIC_NETWORK_NAME = Lisk Sepolia Testnet
 NEXT_PUBLIC_NETWORK_DECIMALS = 18
 NEXT_PUBLIC_NETWORK = holesky
 
@@ -194,3 +149,6 @@ NEXT_PUBLIC_EXPLORER = https://holesky.etherscan.io/
 NEXT_PUBLIC_FORMSPREE_API =
 
 ```
+
+
+/* #16142a */

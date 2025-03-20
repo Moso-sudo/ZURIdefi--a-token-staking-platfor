@@ -2,8 +2,8 @@ import React, {useEffect, useState} from "react";
 import {ConnectButton} from "@rainbow-me/rainbowkit";
 import { useAccount } from "wagmi";
 import logo from "../public/img/logo.svg"
-
-
+import  {Link} from "react-router-dom"
+import { PiPottedPlantDuotone } from "react-icons/pi";
 // INTERNAL IMPORT
 import {MdGeneratingTokens} from "../Components/ReactICON/index";
 
@@ -12,25 +12,30 @@ const Header = ({ page }) => {
 
 
   const navigation = [
+    // {
+    //   name:"",
+    //   link: "#home",
+    // },
+
     {
-      name:"Home",
-      link: "#home",
-    },
-    {
-      name:"Staking",
+      name:"Staking Pools",
       link: "#staking",
     },
     {
-      name: "Crypto",
+      name: "Staking Rewards",
       link: "#crypto",
+    },
+    {
+      name: "Claim Rewards",
+      link: "#rewards",
     },
     {
       name: "Partners",
       link: "#partners",
     },
 
-  ];
-  // style={{backgroundColor :"#33bb6f",  }}
+ ];
+
   return (
  
     <header  className="header" >
@@ -47,31 +52,28 @@ const Header = ({ page }) => {
             <span/>
             <span/>
             </button>
+            
+     
 
-            <a href="/" className="header__logo">
-            <img src={logo}/>
-            </a> 
-            <span className="header__tagline">TIMBUKTU-FI</span>
-            <ul className="header__nav" id="header--nav">
-              {
-                navigation.map((item, index)=>{
-                 
-                  <li key={index}>
-                    <a href={
-                        page == "activity"
-                      ? "/"
-                      : page == "admin"
-                      ? "/"
-                      : `${item.link}`
-                    }>
-                    {item.name}
+          <span style={{color:"white", font: "bold", fontSize: "30px" }}className=" header__text--size">ZURI-defi <PiPottedPlantDuotone className="plant-color" size={40}/></span>
+          <ul style={{ color: "white" , padding:"70px"}} className="header__nav" id="header--nav">
+        {navigation.map((item, index) => (
+            <li key={index}>
+                                                                                                  <a
+        href={
+          page === "activity"
+            ? "/"
+            : page === "admin"
+            ? "/"
+            : `${item.link}`
+        }
+      >
+        {item.name}
+      </a>
+    </li>
+  ))}
+</ul>
 
-                    </a>
-                    
-                  </li>
-                })
-              }
-            </ul>
               <ConnectButton/>
 
               <a 
@@ -87,7 +89,7 @@ const Header = ({ page }) => {
                   < MdGeneratingTokens/>
                 </i> */}
 
-                <span>TMT TOKENS ICO</span>
+                <span>TOKENS ICO</span>
               </a>
 
           </div>

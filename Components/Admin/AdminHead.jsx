@@ -8,7 +8,7 @@ const AdminHead = () => {
       <div className="row">
         <div className="col-12">
           <div className="section__title">
-            <h1>TIMBUKTUFI Admin Panel</h1>
+            <h1>ZURI Admin Panel</h1>
 
           </div>
 

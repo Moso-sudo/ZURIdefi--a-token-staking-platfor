@@ -59,13 +59,14 @@ const index = () => {
   />
   
   <Statistics poolDetails={poolDetails}/> 
+   
   
     <Pools setPoolID={setPoolID}
   poolDetails={poolDetails}
   setSelectedPool={setSelectedPool}
   setSelectedToken={setSelectedToken}
-  />   
-  <Token poolDetails={poolDetails}/>
+  />    
+ <Token poolDetails={poolDetails}/>
   
   <Withdraw
 
@@ -73,30 +74,30 @@ const index = () => {
   setWithdrawPoolID={setWithdrawPoolID}
   />  
  
-{/*   
-  <Notification poolDetails={poolDetails}/>  */}
-  <Partners/>
+
+  {/* <Notification poolDetails={poolDetails}/>   */}
+   <Partners/>
   <Ask setContactUs={setContactUs} />
- 
+  
 
    <Footer/>
      {/*popup Modal */}
 
-   <PoolsModel
+   {/* <PoolsModel
   deposit={deposit}
   poolID={poolID}
   address={address}
   selectedPool={selectedPool}
   selectedToken={selectedToken}
   setLoader={setLoader}
-  />
-  <WithdrawModal
+  />  */}
+  {/* <WithdrawModal
   withdraw={withdraw}
   withdrawPoolID={withdrawPoolID}
   address={address}
   setLoader={setLoader}
   claimReward={claimReward}
-  /> 
+  />  */}
     <ICOSale setLoader={setLoader}/>  
 
   {

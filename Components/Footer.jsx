@@ -32,6 +32,7 @@ const Footer = () => {
       <div className="row">
         <div className="col-12 col-sm-8 col-md-6 col-lg-6 col-xl-4 order-1 order-lg-4 order-xl-1">
           <div className="footer__logo">
+            
             {/* <img className="w-[400px]" src="img/logo.svg" alt=""/> */}
 
           </div>
@@ -101,11 +102,13 @@ const Footer = () => {
               }
 
             </div>
-            <small className="footer__copyright" >
-              NEO, @2025, 
+            <small style={{color:"green"}}className="footer__copyright footer_down" >
+              ZURI-defi, @2025, all rights reserved
             </small>
-
+        
           </div>
+         
+
         </div>
 
       </div>

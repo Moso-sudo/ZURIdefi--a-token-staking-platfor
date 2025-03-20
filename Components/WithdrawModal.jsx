@@ -13,7 +13,7 @@ const WithdrawModal = ({
     setLoader,
     claimReward,
 }) => {
-  const [amount, setAmount] = useState
+  const [amount, setAmount] = useState();
 
 
   const CALLING_FUNCTION = async ( withdrawPoolID, amount, address)=>{
@@ -56,7 +56,7 @@ const WithdrawModal = ({
             </button>
             <h4 className="modal__title"> Withdraw Token</h4>
             <p className="modal__text">
-            Following the lock-up period, your NEO tokens will be available for withdrawa
+        assdasassgdfghfgjhjk
             </p>
             <div className="modal__form">
               <PopUpInputField

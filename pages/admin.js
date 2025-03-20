@@ -62,22 +62,22 @@ const admin = () => {
        setModifyPoolID={setModifyPoolID}
        />
            
-      <Token/>  
+      {/* <Token/>   */}
       
      <Footer/>
 
-      <UpdateAPYModel 
+      {/* <UpdateAPYModel 
       poolDetails= {poolDetails} 
       setLoader ={setLoader}
       modifyPool={modifyPool}
       modifyPoolID={modifyPoolID}
-      /> 
-       <ICOSale setLoader={setLoader}/> 
+      />  */}
+       {/* <ICOSale setLoader={setLoader}/>  */}
 
       
-    
+{/*     
       {!checkAdmin && <Auth/>}
-    {!loader && <Loader/>} 
+    {!loader && <Loader/>}  */}
     
     </div>
  

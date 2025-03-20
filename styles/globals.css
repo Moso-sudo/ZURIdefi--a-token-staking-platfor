@@ -145,6 +145,11 @@
   right: 15%;
   animation-delay: 0.3s;
 }
+.stake__earn-grow{
+  font-size: 60px;
+  color: green;
+
+}
 
 .new-shadow {
   width: 20px;
@@ -234,3 +239,6 @@
 
 /* 
 #17142a */
+.plant-color{
+  color: green;
+}

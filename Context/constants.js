@@ -30,6 +30,7 @@ export function  toEth(amount, decimals =18){
         );
 
         return contractReader;
+        console
     }
 };
 
@@ -103,6 +104,7 @@ export const ERC20 = async (address, userAddress)=>{
 
         };
         return token;
+        console.log(token)
     }
 
     }catch(error){
