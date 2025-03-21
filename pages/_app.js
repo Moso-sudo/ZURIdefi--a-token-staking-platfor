@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import  {Toaster} from "react-hot-toast";
-import merge from "lodash/merge";
+
 import "@rainbow-me/rainbowkit/styles.css";
 
 import {getDefaultWallets, RainbowKitProvider, darkTheme, midnightTheme,  } from "@rainbow-me/rainbowkit";
