@@ -48,7 +48,7 @@ const index = () => {
 
 
   return (     
-  <div style={{backgroundColor: "black"}} className="">
+  <div style={{backgroundColor: "#111b21"}} className="">
   <Header/>
 
 
@@ -65,7 +65,7 @@ const index = () => {
   poolDetails={poolDetails}
   setSelectedPool={setSelectedPool}
   setSelectedToken={setSelectedToken}
-  />    
+  />     
  <Token poolDetails={poolDetails}/>
   
   <Withdraw
@@ -73,9 +73,9 @@ const index = () => {
   poolDetails={poolDetails}
   setWithdrawPoolID={setWithdrawPoolID}
   />  
- 
+  
 
-  {/* <Notification poolDetails={poolDetails}/>   */}
+ {/* <Notification poolDetails={poolDetails}/>    */}
    <Partners/>
   <Ask setContactUs={setContactUs} />
   
@@ -83,14 +83,14 @@ const index = () => {
    <Footer/>
      {/*popup Modal */}
 
-   {/* <PoolsModel
+  {/* <PoolsModel
   deposit={deposit}
   poolID={poolID}
   address={address}
   selectedPool={selectedPool}
   selectedToken={selectedToken}
   setLoader={setLoader}
-  />  */}
+  />    */}
   {/* <WithdrawModal
   withdraw={withdraw}
   withdrawPoolID={withdrawPoolID}
@@ -98,12 +98,11 @@ const index = () => {
   setLoader={setLoader}
   claimReward={claimReward}
   />  */}
-    <ICOSale setLoader={setLoader}/>  
-
-  {
+   <ICOSale setLoader={setLoader}/>   
+ {
     contactUs && <Contact setContactUs={setContactUs}/>
   }
-  {loader &&<Loader/>} 
+  {/* {loader &&<Loader/>}  */}
   </div>
   );
 };

@@ -32,13 +32,16 @@ const Footer = () => {
       <div className="row">
         <div className="col-12 col-sm-8 col-md-6 col-lg-6 col-xl-4 order-1 order-lg-4 order-xl-1">
           <div className="footer__logo">
+          
+
+          <div style={{color:"white", size:"70px"}}> ZURI-defi</div>
             
             {/* <img className="w-[400px]" src="img/logo.svg" alt=""/> */}
 
           </div>
 
           <p className="footer__tagline">
-          "
+          Empowering financial freedom through decentralization. Stake, earn, and grow with us. 🚀 Secure | Transparent | Rewarding
           </p>
         </div>
       <div className="col-6 col-md-4 col-lg-3 col-xl-2 order-3 order-md-2 order-lg-2 order-xl offset-md-2 offset-lg-0">

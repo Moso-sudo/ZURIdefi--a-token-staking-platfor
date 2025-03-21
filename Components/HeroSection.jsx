@@ -49,7 +49,7 @@ const HeroSection = ( {poolDetails, addTokenToMetamask}) => {
           <div className="col-12 col-lg-7 col-xl-6">
             <div className="hero__content hero__content--first">
               <h1 style={{fontFamily:"Montreta"}} className="hero__title">
-              Token Staking platform build on  <a href="">LISK- </a> <span style={{ textTransform: "lowercase", fontSize:"18px"}}>a layer two scalling solution leveraging all the Power of  blockchain! <span>Secure, Transparent, Censorship Resistant while Enjoying Lowered transaction gas fees !</span></span>
+              Token Staking platform build on  <a href="">LISK- </a> <span style={{ textTransform: "lowercase", fontSize:"20px"}}>While leveraging all the Power of  blockchain! <span>Secure, Transparent, Censorship Resistant while Enjoying Lowered transaction gas fees !</span></span>
               
 
               </h1>
